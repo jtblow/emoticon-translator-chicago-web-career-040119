@@ -13,7 +13,8 @@ end
 
 def get_japanese_emoticon(file_path, eng_emoticon)
   library = load_library(file_path)
-  libray["get_emoticon"].include?(eng_emoticon)
+  library["get_emoticon"].include?(eng_emoticon)
+  library["get_emoticon"][eng_emoticon]
 end
 
 def get_english_meaning

@@ -9,7 +9,7 @@ def load_library(file_path)
   end
   result
 end
-end
+
 
 def get_japanese_emoticon
   # code goes here
